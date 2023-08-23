@@ -13,12 +13,12 @@
   
   .countdown-number {
     font-size: 36px;
-    color: #131313;
+    color: rgb(221, 110, 178);
   }
   
   .countdown-label {
     font-size: 18px;
-    color: #474747;
+    color: #aaaaaa;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
