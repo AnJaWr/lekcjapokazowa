@@ -22,11 +22,13 @@ body {
 
  
 }
-
+p{
+    text-align: justify;
+}
 .bigger{
   font-family: 'Space Grotesk', sans-serif;  
   font-weight:bolder;
-  font-size: 2.3rem;
+  font-size: 2rem;
   width: 100%;
   height: fit-content;
   text-align: center;
@@ -43,9 +45,7 @@ h1{
        font-size:2.2rem;
 
 }
-.pink{
-margin: 100px 0 100px 0;
-}
+
 .bottom_wrapper,
 .upper_wrapper{
     display: flex;
@@ -63,6 +63,17 @@ margin: 100px 0 100px 0;
     background-image: url(assets/n6.jpg);
     background-size: cover;
     background-position: top;
+}
+.margin_top{
+    margin-top:80px
+}
+.center{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.margin_bottom{
+    margin-bottom: 50px;
 }
 .bottom_wrapper{
     background-image: url(assets/norwegia4.jpg);
@@ -92,7 +103,7 @@ margin: 100px 0 100px 0;
 .paralax{
 width: 100%;
 min-height: 80vh;
-background-image: url(assets/czerwone-mieszkanie-siedzi-nad-woda-czerwona-kabina-siedzi-na-szczycie-gory-i-wychodzi-na-wode.jpg);
+background-image: url(assets/widok-z-lotu-ptaka-wioski-rybackiej-nusfjord-na-lofotach-norwegia.jpg);
 background-position: top;
 background-repeat: no-repeat;
 background-size: cover;
@@ -111,6 +122,7 @@ background-attachment: fixed;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-self: center;
     align-items: center;
 }
 .form{
@@ -128,9 +140,6 @@ background-attachment: fixed;}
  
 }
 
-@media screen and (max-width:1024px) {
-
-}
 
 
 .footer{
@@ -163,10 +172,6 @@ width: 180px;
 height:180px;
 display: flex;}
 
-.lektor{
- 
-  text-align: justify;
-}
 .zuza{
   background-image: url(assets/zuzanko.png);
   background-position: center;
@@ -179,21 +184,7 @@ display: flex;}
 }
 
 @media screen and (max-width:768px) {
-  .upper_wrapper{
-   background-color: rgba(230, 243, 255);
-   background-image: none;
-  }
-  .mobile_img{
-    background-image: url(assets/n6.jpg);
-    display: flex;
-    flex-direction: row;
-    min-height: 60vh;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-  }
+
 .half{
     width:100%;
     min-height: 40vh;
@@ -205,10 +196,12 @@ display: flex;}
     padding:12px;
     margin:0px;
 }
+.bigger{
+    font-size: 1.8rem;
+}
+
 .lektor{
-    margin:15px;
-    padding:15px;
-    text-align: justify;
+    padding:10px;
 }
 #mlb2-6962090.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody{
     padding:0px;
@@ -221,8 +214,15 @@ display: flex;}
     padding:10px;
     font-size: 1rem;
 }
-
-
+.margin_top{
+    margin-top:55px
+}
+.margin_bottom{
+ margin-bottom: 20px;
+}
+.upper_wrapper{
+    min-height: 100vh;
+}
 
 .four{
 
