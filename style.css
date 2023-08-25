@@ -51,18 +51,16 @@ h1{
     display: flex;
     flex-direction: row;
     min-height: 60vh;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
 }
 
 
-.upper_wrapper{
+.upper_wrapper_bck{
     background-image: url(assets/n6.jpg);
-    background-size: cover;
     background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .margin_top{
     margin-top:80px
@@ -75,8 +73,24 @@ h1{
 .margin_bottom{
     margin-bottom: 50px;
 }
-.bottom_wrapper{
+.video{
+    width:800px; 
+    height:530px;
+}
+.bottom_wrapper_bck{
     background-image: url(assets/norwegia4.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bottom_wrapper_bck-saf{
+    background-image: url(assets/norwegia4.jpg);
+    background-size: cover;
+}
+.upper_wrapper_bck-saf{
+    background-image: url(assets/n6.jpg);
+    background-size: cover;
 }
 
 .text{
@@ -109,6 +123,15 @@ background-position: top;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;}
+
+.paralax_bck{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(assets/widok-z-lotu-ptaka-wioski-rybackiej-nusfjord-na-lofotach-norwegia.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    
 
 .counter{
     padding: 80px 0px 120px 0px;
@@ -174,8 +197,7 @@ height:180px;
 display: flex;}
 
 .attached{
-
-    background-attachment: scroll;}
+    -webkit-background-size: 2650px 1440px;}
 
 .zuza{
   /* background-image: url(assets/zuzanko.png);
@@ -252,6 +274,11 @@ body{
     margin-left: 30%
 
  
+}
+
+.video{
+    width: 100vw;
+    height: 250px;
 }
 }
 
