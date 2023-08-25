@@ -90,6 +90,7 @@ h1{
     font-weight: 600;
     color:rgb(86, 46, 122);
     font-size:1.4rem;
+    padding:10px;
     display:flex;
 }
 .fullwidth{
@@ -172,19 +173,32 @@ width: 180px;
 height:180px;
 display: flex;}
 
+.attached{
+
+    background-attachment: scroll;}
+
 .zuza{
-  background-image: url(assets/zuzanko.png);
+  /* background-image: url(assets/zuzanko.png);
+  background-image: url(assets/zuza_min.jpg); */
+  background-image: url(assets/zuztr.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
+  width: 450px;
+  height: 450px;
+
 
 }
 
 @media screen and (max-width:768px) {
-
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .half{
     width:100%;
     min-height: 40vh;
@@ -240,3 +254,4 @@ display: flex;}
  
 }
 }
+
