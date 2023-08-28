@@ -39,7 +39,8 @@ p{
   flex-wrap: wrap;
   padding:10px;
   margin: 0px;
-  color:#734BBC;
+  color:#734BBC;}
+  
 h1{
     font-family: 'Space Grotesk', sans-serif;  
     font-weight:bolder;
@@ -209,7 +210,9 @@ height:180px;
 display: flex;}
 
 .attached{
-    -webkit-background-size: 2650px 1440px;}
+    background-attachment: scroll;
+    background-size: contain;}
+
 
 .zuza{
   /* background-image: url(assets/zuzanko.png);
@@ -223,10 +226,7 @@ display: flex;}
   height: 300px; */
   width: 450px;
   height: 450px;
-
-
 }
-
 @media screen and (max-width:768px) {
 body{
     width: 100%;
@@ -293,4 +293,3 @@ body{
     height: 250px;
 }
 }
-
