@@ -87,8 +87,13 @@ h1{
     margin-bottom: 50px;
 }
 .video{
-    width:800px; 
-    height:530px;
+    width:100%;
+    height:fit-content
+}
+iframe{
+    width: 750px;
+    height:580px;
+    position: relative;
 }
 .bottom_wrapper_bck{
     background-image: url(assets/norwegia4.jpg);
@@ -211,7 +216,8 @@ display: flex;}
 
 .attached{
     background-attachment: scroll;
-    background-size: contain;}
+    background-size: contain;
+-webkit-background-size: contain;}
 
 
 .zuza{
@@ -288,8 +294,9 @@ body{
  
 }
 
-.video{
-    width: 100vw;
-    height: 250px;
+iframe{
+    width: 300px;
+    height:580px;
+    position: relative;
 }
 }
