@@ -216,8 +216,8 @@ display: flex;}
 
 .attached{
     background-attachment: scroll;
-    background-size: contain;
--webkit-background-size: contain;}
+    background-size: cover;
+-webkit-background-size: cover;}
 
 
 .zuza{
@@ -233,7 +233,75 @@ display: flex;}
   width: 450px;
   height: 450px;
 }
-@media screen and (max-width:768px) {
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .half{
+        width:100%;
+        min-height: 40vh;
+        padding:0;
+        margin:5px;
+    }
+    .text{
+        width: 60%;
+        padding:12px;
+        margin:0px;
+    }
+    .bigger{
+        font-size: 1.8rem;
+    }
+    
+    .lektor{
+        padding:10px;
+    }
+    #mlb2-6962090.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody{
+        padding:0px;
+    }
+    .lesson{
+        padding:20px;
+    }
+  
+    .margin_top{
+        margin-top:55px
+    }
+    .margin_bottom{
+     margin-bottom: 20px;
+    }
+    .upper_wrapper{
+        min-height: 100vh;
+    }
+    
+    .four{
+ 
+            width: 45%;
+            padding:10px;
+            font-size: 1rem;
+    
+        justify-items: center;
+    }
+    .four:last-of-type{
+        margin-bottom:50px
+    }
+    .logo_container{
+        width: 130px;
+        height:130px;
+        margin-left: 30%
+    
+     
+    }
+    
+    iframe{
+        width: 300px;
+        height:580px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:767px) {
 body{
     width: 100%;
     margin: 0;
