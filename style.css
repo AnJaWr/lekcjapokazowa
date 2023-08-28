@@ -39,12 +39,11 @@ p{
   flex-wrap: wrap;
   padding:10px;
   margin: 0px;
-  color:rgb(115, 75, 188)
-}
+  color:#734BBC;
 h1{
     font-family: 'Space Grotesk', sans-serif;  
     font-weight:bolder;
-    color:rgb(86, 46, 122);
+    color:#734BBC;
        font-size:2.2rem;
 
 }
@@ -115,7 +114,7 @@ h1{
 }
 .wow{
     font-weight: 600;
-    color:rgb(86, 46, 122);
+    color:#734BBC;
     font-size:1.4rem;
     padding:10px;
     display:flex;
